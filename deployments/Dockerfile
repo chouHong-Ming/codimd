@@ -1,4 +1,4 @@
-ARG RUNTIME
+ENV RUNTIME
 
 FROM hackmdio/buildpack:node-10-0baafb79 as BUILD
 
