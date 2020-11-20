@@ -369,16 +369,38 @@ stop
 }
 ```
 
-### Fretboard
+### Fretboad
 
-```fretboard {title="horizontal, 6 frets, with nut", type="h6"}
+```fretboard {title="horizontal, 5 frets", type="h6 noNut"}
 -oO-*-
 --o-o-
 -o-oo-
 -o-oO-
 -oo-o-
 -*O-o-
-  3
+```
+
+### Mindmap
+
+```markmap
+# markmap-lib
+
+## Links
+
+- <https://markmap.js.org/>
+- [GitHub](https://github.com/gera2ld/markmap-lib)
+
+## Related
+
+- [coc-markmap](https://github.com/gera2ld/coc-markmap)
+- [gatsby-remark-markmap](https://github.com/gera2ld/gatsby-remark-markmap)
+
+## Features
+
+- links
+- **inline** ~~text~~ *styles*
+- multiline
+  text
 ```
 
 > More information about **sequence diagrams** syntax [here](http://bramp.github.io/js-sequence-diagrams/).
@@ -388,7 +410,7 @@ stop
 > More information about **abc** syntax [here](http://abcnotation.com/learn)
 > More information about **plantuml** syntax [here](http://plantuml.com/index)
 > More information about **vega** syntax [here](https://vega.github.io/vega-lite/docs)
-> More information about **fretboard** syntax [here](https://hackmd.io/@docs/fretboard-syntax)
+> More information about **fretboard** syntax [here](https://hackmd.io/c/codimd-documentation/%2F%40codimd%2Ffretboard-syntax)
 
 Alert Area
 ---
